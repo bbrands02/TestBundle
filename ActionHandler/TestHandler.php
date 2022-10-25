@@ -2,15 +2,15 @@
 
 namespace App\ActionHandler;
 
-use CommonGateway\PetStoreBundle\Service\PetStoreService;
+use BBrands\TestBundle\Service\TestService;
 
-class PetStoreHandler
+class TestHandler
 {
-    private PetStoreService $petStoreService;
+    private TestService $testService;
 
-    public function __construct(PetStoreService $petStoreService)
+    public function __construct(TestService $testService)
     {
-        $this->petStoreService = $petStoreService;
+        $this->testService = $testService;
     }
 
     /**
@@ -45,6 +45,6 @@ class PetStoreHandler
      */
     public function run(array $data, array $configuration): array
     {
-        return $this->petStoreService->test($data, $configuration);
+        return $this->testService->test($data, $configuration);
     }
 }

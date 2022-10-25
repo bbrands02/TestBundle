@@ -5,7 +5,7 @@
         https://symfony.com/schema/dic/services/services-1.0.xsd">
     <services>
         <defaults autowire="true" autoconfigure="true" />
-        <service id="CommonGateway\PetStoreBundle\Service\PetStoreService" />
-        <service id="CommonGateway\PetStoreBundle\ActionHandler\PetStoreHandler" />
+        <service id="BBrands\TestBundle\Service\TestService" />
+        <service id="BBrands\TestBundle\ActionHandler\TestHandler" />
     </services>
 </container>

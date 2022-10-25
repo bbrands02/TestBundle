@@ -1,10 +1,10 @@
 <?php
 
-// src/Service/PetStoreService.php
+// src/Service/TestService.php
 
-namespace CommonGateway\PetStoreBundle\Service;
+namespace BBrands\TestBundle\Service;
 
-class PetStoreService
+class TestService
 {
 
     /*
@@ -14,6 +14,6 @@ class PetStoreService
      */
     public function test(array $data, array $configuration): array
     {
-        return ['response' => 'Hello. Your PetStoreBundle works'];
+        return ['response' => 'Hello. Your TestBundle works'];
     }
 }
