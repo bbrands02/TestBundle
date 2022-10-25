@@ -1,9 +1,9 @@
 <?php
-// src/PetStoreBundle.php
-namespace CommonGateway\PetStoreBundle;
+// src/TestBundle.php
+namespace BBrands\TestBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class PetStoreBundle extends Bundle
+class TestBundle extends Bundle
 {
 }
